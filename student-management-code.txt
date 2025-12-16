@@ -1,0 +1,15 @@
+mkdir student-management-system
+
+cd student-management-system
+
+git init
+
+echo "# Student Management System" > README.md
+
+echo "This project manages student records using Git." >> README.md
+
+git status
+
+git add README.md
+
+git commit -m "Initial commit: Add README for Student Management System"
